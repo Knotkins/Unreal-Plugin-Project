@@ -1,0 +1,2 @@
+C:\Users\Seque\Documents\Unreal Projects\MyProject2\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\Definitions.TestPlugin.h
+C:\Users\Seque\Documents\Unreal Projects\MyProject2\Plugins\TestPlugin\Source\TestPlugin\Public\TestPlugin.h

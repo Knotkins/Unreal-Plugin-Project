@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyProject2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4EC16620-6DB0-4F17-BD9E-5DE445B34A1E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyProject2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyProject2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{48E5DDB1-B01C-4A7D-B354-E14075648B0A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{EDF28D06-9158-4EDC-B4F3-2982B9F582FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin">
+      <UniqueIdentifier>{D0DB4E46-8CC7-40F0-AFE7-E18616751E09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin\Source">
+      <UniqueIdentifier>{63B6DDF5-DEE7-4D16-B3E4-AAC5CC28177C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin">
+      <UniqueIdentifier>{3D6D6EA7-00BE-4200-9779-CA0D0DFABD02}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TestPlugin\Source\TestPlugin\TestPlugin.Build.cs">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin\Private">
+      <UniqueIdentifier>{40C23F26-1149-4593-969D-8044E037D788}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Private\MyActor.cpp">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Private\TestPlugin.cpp">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\TestPlugin\Source\TestPlugin\Public">
+      <UniqueIdentifier>{1DA424C8-FB9F-4311-8FDC-24EFAE560B6A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Public\MyActor.h">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\TestPlugin\Source\TestPlugin\Public\TestPlugin.h">
+      <Filter>Plugins\TestPlugin\Source\TestPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\TestPlugin\TestPlugin.uplugin">
+      <Filter>Plugins\TestPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\TestPlugin\Resources">
+      <UniqueIdentifier>{ADD5004C-6CA5-459E-BD28-05AAFE8ED57E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\TestPlugin\Resources\Icon128.png">
+      <Filter>Plugins\TestPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Source\MyProject2">
+      <UniqueIdentifier>{4DDA2A9D-3039-4913-8A26-1719BF06FB7E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyProject2\MyProject2.Build.cs">
+      <Filter>Source\MyProject2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyProject2\MyProject2.cpp">
+      <Filter>Source\MyProject2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject2\MyProject2.h">
+      <Filter>Source\MyProject2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject2\MyProject2GameModeBase.cpp">
+      <Filter>Source\MyProject2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject2\MyProject2GameModeBase.h">
+      <Filter>Source\MyProject2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

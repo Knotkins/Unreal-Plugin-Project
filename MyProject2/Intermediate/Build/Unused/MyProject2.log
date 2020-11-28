@@ -1,0 +1,15 @@
+﻿  Parsing headers for MyProject2Editor
+    Running UnrealHeaderTool "C:\Users\Seque\Documents\Unreal Projects\MyProject2\MyProject2.uproject" "C:\Users\Seque\Documents\Unreal Projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\MyProject2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Seque\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for MyProject2Editor in 10.7767266 seconds
+  Building MyProject2Editor...
+  Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] Module.TestPlugin.cpp
+    [2/5] Module.TestPlugin.gen.cpp
+    [3/5] UE4Editor-TestPlugin.lib
+       Creating library C:\Users\Seque\Documents\Unreal Projects\MyProject2\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\UE4Editor-TestPlugin.lib and object C:\Users\Seque\Documents\Unreal Projects\MyProject2\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\UE4Editor-TestPlugin.exp
+    [4/5] UE4Editor-TestPlugin.dll
+       Creating library C:\Users\Seque\Documents\Unreal Projects\MyProject2\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\UE4Editor-TestPlugin.suppressed.lib and object C:\Users\Seque\Documents\Unreal Projects\MyProject2\Plugins\TestPlugin\Intermediate\Build\Win64\UE4Editor\Development\TestPlugin\UE4Editor-TestPlugin.suppressed.exp
+    [5/5] MyProject2Editor.target
+  Total time in Parallel executor: 14.02 seconds
+  Total execution time: 25.73 seconds
